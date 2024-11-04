@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { Command } from "cmdk"
-import { Dialog, DialogContent } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
 import { useHotkeys } from "react-hotkeys-hook"
 
 interface CommandItem {
@@ -102,6 +102,9 @@ export default function CommandPalette() {
     return (
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogContent className="p-0 gap-0">
+                <DialogTitle asChild>
+                    <DialogTitle>Command Palette</DialogTitle>
+                </DialogTitle>
                 <Command className="rounded-lg border shadow-md">
                     <div className="flex items-center border-b px-3" cmdk-input-wrapper="">
                         <Command.Input

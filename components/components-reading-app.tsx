@@ -1,8 +1,8 @@
 'use client'
 
 import * as React from "react"
-import {useHotkeys} from "react-hotkeys-hook"
-import {SidebarProvider} from "@/components/ui/sidebar"
+import { useHotkeys } from "react-hotkeys-hook"
+import { SidebarProvider } from "@/components/ui/sidebar"
 import LeftSidebar from "./LeftSidebar"
 import MainContent from "./MainContent"
 import RightSidebar from "./RightSidebar"
@@ -150,7 +150,7 @@ const articles = [
     // Add more articles as needed
 ]
 
-export function ReadingAppComponent() {
+export default function ReadingApp() {
     const [leftSidebarOpen, setLeftSidebarOpen] = React.useState(true)
     const [rightSidebarOpen, setRightSidebarOpen] = React.useState(true)
     const [selectedArticle, setSelectedArticle] = React.useState(articles[0])
@@ -166,20 +166,22 @@ export function ReadingAppComponent() {
     return (
         <SidebarProvider>
             <div className="flex h-screen bg-background">
-                <LeftSidebar isOpen={leftSidebarOpen} setIsOpen={setLeftSidebarOpen}/>
+                <LeftSidebar isOpen={leftSidebarOpen} setIsOpen={setLeftSidebarOpen} />
                 <MainContent
                     articles={articles}
                     selectedArticle={selectedArticle}
                     setSelectedArticle={setSelectedArticle}
                     leftSidebarOpen={leftSidebarOpen}
+                    rightSidebarOpen={rightSidebarOpen}
                     setLeftSidebarOpen={setLeftSidebarOpen}
+                    setRightSidebarOpen={setRightSidebarOpen}
                 />
                 <RightSidebar
                     isOpen={rightSidebarOpen}
                     setIsOpen={setRightSidebarOpen}
                     selectedArticle={selectedArticle}
                 />
-                <CommandPalette/>
+                <CommandPalette />
             </div>
         </SidebarProvider>
     )

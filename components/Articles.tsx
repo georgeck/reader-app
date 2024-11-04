@@ -6,7 +6,7 @@ export const articles = [
         description: "The 3 Laws of Locality explain where certain controls should be placed in a user interface based on users' expectations.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -20,7 +20,7 @@ export const articles = [
         description: "Large language models (LLMs) learn to predict the next word in a sentence by using word vectors.",
         author: {
             name: "Timothy B Lee",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@tblee"
         },
         date: "Sep 10th",
@@ -34,7 +34,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -48,7 +48,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -62,7 +62,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -76,7 +76,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -90,7 +90,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -103,7 +103,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -116,7 +116,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",
@@ -129,7 +129,7 @@ export const articles = [
         description: "Designing a dark mode involves more than just changing the background color to black.",
         author: {
             name: "Erik D. Kennedy",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/public.png?height=40&width=40",
             username: "@Erik_D"
         },
         date: "Oct 17th",

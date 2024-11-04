@@ -26,8 +26,8 @@ interface ArticleCardProps {
 export default function ArticleCard({ article, isSelected, onClick }: ArticleCardProps) {
     return (
         <Card
-            className={`p-4 cursor-pointer transition-colors hover:bg-accent ${
-                isSelected ? 'bg-accent' : ''
+            className={`p-4 cursor-pointer transition-colors hover:bg-accent/50 ${
+                isSelected ? 'bg-accent/50' : 'bg-background'
             }`}
             onClick={onClick}
         >

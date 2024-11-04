@@ -47,7 +47,7 @@ export default function MainContent({
                                         setRightSidebarOpen,
                                     }: MainContentProps) {
     return (
-        <div className="flex-1 overflow-hidden bg-background">
+        <div className="flex-1 min-w-0 overflow-hidden bg-background">
             <header className="flex h-14 items-center justify-between border-b px-4">
                 <div className="flex items-center gap-2">
                     {!leftSidebarOpen && (

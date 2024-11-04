@@ -25,7 +25,9 @@ export default function ReadingApp() {
     return (
         <SidebarProvider>
             <div className="flex h-screen bg-background">
-                <LeftSidebar isOpen={leftSidebarOpen} setIsOpen={setLeftSidebarOpen} />
+                {leftSidebarOpen && (
+                    <LeftSidebar isOpen={leftSidebarOpen} setIsOpen={setLeftSidebarOpen} />
+                )}
                 <MainContent
                     articles={articles}
                     selectedArticle={selectedArticle}
@@ -35,11 +37,13 @@ export default function ReadingApp() {
                     setLeftSidebarOpen={setLeftSidebarOpen}
                     setRightSidebarOpen={setRightSidebarOpen}
                 />
-                <RightSidebar
-                    isOpen={rightSidebarOpen}
-                    setIsOpen={setRightSidebarOpen}
-                    selectedArticle={selectedArticle}
-                />
+                {rightSidebarOpen && (
+                    <RightSidebar
+                        isOpen={rightSidebarOpen}
+                        setIsOpen={setRightSidebarOpen}
+                        selectedArticle={selectedArticle}
+                    />
+                )}
                 <CommandPalette />
             </div>
         </SidebarProvider>
